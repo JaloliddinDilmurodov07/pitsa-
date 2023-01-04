@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-image:url(https://thumbs.dreamstime.com/b/pizza-rustic-italian-mozzarella-cheese-basil-leaves-35669930.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+.pitsa {
+    display: flex;
+    justify-content: center;
+  }
+  
+  h1 {
+   text-align: center;
+   font-size: 30px;
+   color: rgb(3, 2, 3);
+   animation-iteration-count: infinite ;
+   animation-duration: 10s;
+   animation-name: animation;
+
+}
+@keyframes animation {
+  0%   {background-color: red;}
+  5%  {background-color: yellow;}
+  10%  {background-color: blue;}
+  15% {background-color: green;}
+  20%  {background-color: rgb(191, 40, 241);}
+  25%  {background-color: rgb(49, 208, 192);}
+  30%  {background-color: rgb(185, 39, 97);}
+  35%  {background-color: coral;}
+  40%  {background-color: hotpink;}
+  45%  {background-color: greenyellow;}
+  50%  {background-color: rgb(153, 44, 212);}
+  55%  {background-color: brown;}
+  60%  {background-color: mediumaquamarine;}
+  65%  {background-color: blue;}
+  70%  {background-color: lawngreen;}
+  75%  {background-color: darkmagenta;}
+  80%  {background-color: yellow;}
+  85%  {background-color: yellowgreen;}
+  90%  {background-color: rosybrown;}
+  95%  {background-color: blue;}
+  100%  {background-color: crimson;}
+  
+
+
+}
+  .select {
+    margin-top: 5px;
+    width: 185px;
+    height: 30px;
+    padding: 0 15px 0 8px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.3s;
+  }
+  
+  .select:hover {
+   background-color: rgb(102, 217, 26);
+   opacity: 2s;
+  }
+  
+  .option {
+    background-color: rgb(223, 223, 223);
+  }
+  
+
+  
+  .radius_form {
+    margin-top: 10px; 
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+h4{
+  margin-top: 10px;
+}
+  .radius1{
+    width: 25px;
+    height:25px;
+    cursor:pointer;
+    background-color: crimson;
+    margin-right: 10px;
+    display: flex;
+  }
+  .radius2{
+    width: 30px;
+    height:30px;
+    cursor:pointer;
+    background-color: crimson;
+    margin-right: 10px;
+    display: flex;
+  }
+  .radius3{
+    width: 35px;
+    height:35px;
+    cursor:pointer;
+    background-color: crimson;
+    margin-right: 10px;
+    display: flex;
+  }
+  
+  .rd-form:last-child {
+    margin: 0;  
+  }
+  
+  .box{
+    margin-top: 20px;
+    width: 320px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .qoshimcha{
+    margin-top: 30px;
+  }
+  .bir {
+    margin-right: 41px;
+  }
+  
+  .ikki {
+    margin-right: 600px;
+  }
+  
+  .uch {
+    margin-right: 50px;
+  }
+  
+  .tor {
+    margin-left: 28px;
+  }
+  
+  .site-input {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .put-box {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .put-box:nth-child(5) {
+    margin: 0;
+  }
+  .put-box:nth-child(6) {
+    margin: 0;
+  }
+  
+  .qsh-box {
+    margin-top: 10px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .input-2 {
+    display: flex;
+    width: 100px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .flex-span {
+    display: block;
+    width: 2.5px;
+    height: 550px;
+    border-radius: 25px;
+    background-color: black;
+  }
+  
+  .btn {
+   
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+
+}
+.btn:hover{
+background-color:chartreuse ;
+opacity: 50s;
+}
+
+  .first-box {
+    margin-right: 200px;
+  }
+
+  .scound-box {
+    margin-left: 100px;
+  }
+
+  .scound-box span {
+    color: chartreuse;
+  }
+
+  .input-result {
+    color: chartreuse;
+  }
